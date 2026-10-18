@@ -1,0 +1,2 @@
+ALTER TABLE matches
+  ADD COLUMN IF NOT EXISTS recovery_started_at TIMESTAMPTZ;
